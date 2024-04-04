@@ -1,0 +1,264 @@
+.main {
+  background-image: url("images/banner-bg.png");
+  position: relative;
+  background-position-x: 100%;
+  background-position-y: 0px;
+  background-repeat: no-repeat
+}
+
+
+.banner h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 180px;
+}
+
+.banner span {
+  color: orange;
+  border-bottom: solid orange;
+}
+
+.vr {
+  border-left: 1px solid black;
+  /* Example border style */
+  height: 20px;
+  /* Example height */
+  margin: 0 10px;
+  /* Example margin */
+}
+
+.background {
+  background-image: url("images/elements.png");
+}
+
+.shelly {
+  margin-top: 200px;
+}
+
+.shelly h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.masonary {
+  background-image: url("images/abt-bg.png");
+}
+
+.masonary .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.masonary .row .column{
+  flex: 33.3%;
+  overflow: hidden;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.masonary .row .column img{
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 20px;
+}
+@media (max-width: 768px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+.masonry-grid .grid-item {
+  display: inline-block;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.masonry-grid .grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.our-classes h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.our-classes img {
+  border-bottom: solid rgb(38, 38, 188);
+}
+
+.buttons button:hover {
+  background-color: orange;
+}
+
+.teacher .card {
+  border: none;
+}
+
+.teacher img {
+  border-radius: 15px;
+}
+
+.course1 .bg {
+  background-image: url("images/abt-bg.png");
+
+}
+
+.card1 {
+  margin-top: 90px;
+}
+
+.card2 {
+  margin-top: 90px;
+  left: -100px;
+  position: relative;
+}
+
+.views .card {
+  border: none;
+}
+
+.views img {
+  border-radius: 25px;
+}
+
+.newsletter {
+  background: linear-gradient(90deg, #fdc830, #f37335);
+  bottom: -80px;
+  position: relative;
+}
+
+
+
+
+
+footer .row {
+  padding-top: 150px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.footer-color {
+  background-color: #f2f7fd;
+}
+
+
+@media (max-width: 767.98px) {
+
+  .card2 {
+    margin-top: 90px;
+    position: relative;
+    left: 0px;
+  }
+
+  .newsletter form{
+    margin-top: 10px;
+  }
+
+  .newsletter{
+    
+    border-radius: 0px;
+  }
+
+  
+
+}
+
+
+
+
+/**Events page start**/
+
+.event-banner {
+  background: url("images/pager-bg.png"), #f2f7fd;
+  ;
+  padding: 100px;
+}
+
+
+.center-text {
+  text-align: center;
+}
+
+/**Event single page**/
+.section {
+  margin-top: 120px;
+}
+
+.event_single_card .card-title {
+ 
+  text-align: center;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  background-image: linear-gradient(rgb(253, 200, 48), rgb(243, 115, 53));
+
+}
+
+.event_single_card .card{
+  border: none;
+}
+
+.map iframe{
+  height: 600px;
+  width: 100%;
+}
+
+
+/**class single page**/
+.table-orange{
+  padding: 41px 20px 35px;
+  background: linear-gradient(180deg,#fdc830,#f37335);
+  text-align: center;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+.table-blue{
+  background: linear-gradient(180deg,#159957,#155799);
+  text-align: center;
+  height: 100%;
+  width: 200px; /* Adjust as needed */
+  padding: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+table{
+  text-align: center;
+  border-radius: 2px;
+
+}
+/*****blog page*****************/
+.blog span{
+  top: -15px;
+  position: relative;
+ 
+
+}
+.quote-post{
+  background-image: url("images/element-bg2.png");
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  background-color: #f37335;
+  border-radius: 15px;
+  padding: 20px;
+  
+}
+
+.calendar td,th{
+  padding: 10px;
+}
+
+
+.blog img:hover{
+
+background-color: rgba(0,0,0,.3)
+}
